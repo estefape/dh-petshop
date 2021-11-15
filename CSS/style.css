@@ -1,22 +1,53 @@
-body {
-    font-family: 'Roboto', sans-serif; 
+* {
+    margin: 0;
 }
 
-div.top {
-    background-color: #222222; 
-    color:#F3F3F3;
-    
+body {
+    font-family: 'Roboto', sans-serif;
+}
 
+.barraSuperior {
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+}
+
+div.ofertas {
+    color: #F3F3F3;
+    margin: 4px 0 4px 90px;
+}
+
+.menuIdioma nav ul {
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    margin: 4px 60px 4px;
+}
+
+.menuIdioma nav ul li {
+    margin-left: 20px;
 }
 
 header {
     background-color: #F0A83E;
     color: #FFFFFF;
-
+    display: flex;
+    justify-content: space-between;
 }
 
-section {
-    background-color: #E5E5E5;
+header img {
+    margin: 20px 0 20px 40px;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    margin: 23px 40px 24px;
+}
+
+header nav ul li {
+    margin-left: 20px;
 }
 
 .banner {
@@ -24,28 +55,164 @@ section {
     background-size: cover;
     height: 409px;
     text-align: center;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .saludo {
     background-color: #FFFFFF;
     font-size: 30px;
     padding: 10px;
+    margin: 156px 12px 12px;
+    border-radius: 5px;
 }
 
-.comederos {
+.comederosDescuentos {
+    margin: 12px 95px;
+}
+
+.boton-naranja {
     background-color: #F0A83E;
+    border-radius: 5px;
+    border: none;
     color: white;
-    font-size: 13px;
+    text-transform: uppercase;
+    font-size: 16px;
     padding: 15px 23px;
 }
 
-
-footer{
-    background-color: #3C2313;
-    color:#FFFFFF;  
+.boton-formulario {
+    border-radius: 15px;
+    background-color: #8A8787;
+    border: none;
+    padding: 8px 30px;
+    color: #FFF;
+    margin-top: 31px;
+    margin-bottom: 75px;
 }
 
-footer p{
+.btn-enviar {
+    background-color: #F0A83E;
+    
+}
+
+.btn-newsletter {
+    background-color: #3C2313;
+    font-size: 10px;
+    padding: 12px 11px;
+    margin: 13px 47px 13px 5px;
+}
+
+.listadoProductos {
     text-align: center;
-    background-color:#222222;
+    background-color: #FFFFFF;
+}
+
+.listadoProductos img {
+    margin: 20px 478px 5pxs;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 5px 309px 20px;
+}
+
+.productos {
+    display: flex;
+    flex-direction: rows;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+.contactanos {
+    text-align: center;
+
+}
+
+h3 {
+    color: #3C2313;
+    font-size: 25px;
+    margin: 78px 0 20px;
+    font-weight: 700;
+}
+
+input {
+    width: 340px;
+    background-color: #3C2313;
+    border-radius: 15px;
+    color: #FFF;
+    font-size: 9px;
+    margin-bottom: 10px;
+    padding: 15px 14px;
+    border: none;
+}
+
+.correo {
+    background-color: #FFFFFF;
+    width: 271px;
+}
+
+.newsletter {
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+}
+
+.newsletter span {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+
+}
+
+.newsletter img {
+    margin-left: 23px;
+    margin-right: 10px;
+}
+
+
+
+footer {
+    background-color: #3C2313;
+    color: #FFFFFF;
+}
+
+.informacion>div>div {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.informacion {
+    display: flex;
+    justify-content: space-between;
+}
+
+.informacion>div {
+    margin: 20px 0 20px 70px;
+}
+
+.informacion>div>div>div {
+    margin-left: 25px;
+}
+
+.informacion span {
+    font-weight: 700;
+    font-size: 10px;
+    color: #8A8787;
+}
+
+.informacion>img {
+    margin: 130px 70px;
+}
+
+.derechosReservados {
+    text-align: center;
+    background-color: #222222;
+    margin: 4pxs;
+    font-size: 10px;
+    font-weight: 700;
 }
